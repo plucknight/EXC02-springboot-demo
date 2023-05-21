@@ -1,4 +1,5 @@
 # EXC02-springboot-demo
+一个简易的javaweb练习
 ```
 hytlias-web-management
 ├── EXC02-springboot-demo
@@ -9,44 +10,44 @@ hytlias-web-management
 │   │   │   └── com
 │   │   │       └── sx
 │   │   │           ├── TliasWebManagementApplication.java
-│   │   │           ├── anno
+│   │   │           ├── anno //切入点自定义注解
 │   │   │           │   └── Log.java
-│   │   │           ├── aop
+│   │   │           ├── aop //AOP事务通知
 │   │   │           │   └── LogAspect.java
 │   │   │           ├── config
 │   │   │           │   └── WebConfig.java
-│   │   │           ├── controller
+│   │   │           ├── controller //接收请求响应数据
 │   │   │           │   ├── DeptController.java
 │   │   │           │   ├── EmpController.java
 │   │   │           │   ├── LoginController.java
 │   │   │           │   └── UploadController.java
 │   │   │           ├── exception
 │   │   │           │   └── GlobalExceptionHander.java
-│   │   │           ├── filter
+│   │   │           ├── filter //过滤器
 │   │   │           │   └── LoginCheckFilter.java
-│   │   │           ├── interceptor
+│   │   │           ├── interceptor //拦截器
 │   │   │           │   └── LoginCheckInterceptor.java
-│   │   │           ├── mapper
+│   │   │           ├── mapper //数据访问层操作数据库
 │   │   │           │   ├── DeptLogMapper.java
 │   │   │           │   ├── DeptMapper.java
 │   │   │           │   ├── EmpMapper.java
 │   │   │           │   └── OperateLogMapper.java
-│   │   │           ├── pojo
+│   │   │           ├── pojo //对象
 │   │   │           │   ├── Dept.java
 │   │   │           │   ├── DeptLog.java
 │   │   │           │   ├── Emp.java
 │   │   │           │   ├── OperateLog.java
 │   │   │           │   ├── PageBean.java
 │   │   │           │   └── Result.java
-│   │   │           ├── service
+│   │   │           ├── service //业务逻辑处理
 │   │   │           │   ├── DeptLogService.java
 │   │   │           │   ├── DeptService.java
 │   │   │           │   ├── EmpService.java
-│   │   │           │   └── impl
+│   │   │           │   └── impl 
 │   │   │           │       ├── DeptLogServiceImpl.java
 │   │   │           │       ├── DeptServiceImpl.java
 │   │   │           │       └── EmpServiceImpl.java
-│   │   │           └── utils
+│   │   │           └── utils //工具类
 │   │   │               ├── AliOSSProperties.java
 │   │   │               ├── AliOSSUtils.java
 │   │   │               └── JwtUtils.java
