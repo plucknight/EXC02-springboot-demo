@@ -18,7 +18,7 @@ public class Demo {
         String accessKeyId = "LTAI5tPgwotUkQ1uH2NqbaN7";
         String accessKeySecret = "1uMmnTAz8YjYoKPIU36wtbwv2JCxb0";
         // 填写Bucket名称，例如examplebucket。
-        String bucketName = "myh-sx-tlias";
+        String bucketName = "";
         // 填写Object完整路径，完整路径中不能包含Bucket名称，例如exampledir/exampleobject.txt。
         String objectName = "1.jpg";
         // 填写本地文件的完整路径，例如D:\\localpath\\examplefile.txt。
